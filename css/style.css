@@ -12,13 +12,16 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 1141px;
   margin: 0 auto;
-  max-width: 1140px;
 }
 
 ul > li {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* hero  */
@@ -51,7 +54,7 @@ ul > li {
   font-weight: 400;
 }
 
-.hero-cta .button {
+.button {
   border: none;
   width: 160px;
   height: 64px;
@@ -135,4 +138,125 @@ ul > li {
   color: #737272;
   font-size: 25px;
   font-weight: 500;
+}
+
+/* // section 4 */
+.tracking {
+  width: 1140px;
+  height: 300px;
+  color: #fff;
+  margin: 130px auto;
+  background: url("../images/watch.png") center no-repeat;
+}
+
+.tracking-div {
+  height: 100%;
+  display: flex;
+  padding-left: 64px;
+  flex-direction: column;
+  justify-content: center;
+  background: url("../images/gradient.png") center no-repeat;
+}
+
+.tracking-title {
+  width: 459px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+/* // footer  */
+.footer {
+  height: 577px;
+  display: flex;
+  color: #f8f8f8;
+  align-items: center;
+  background-color: #151414;
+}
+
+.footer-div {
+  display: flex;
+  padding: 40px 0;
+  justify-content: space-between;
+}
+
+.about-us {
+  width: 485px;
+}
+
+.about-us .about-us-title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.about-us .about-us-description {
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.about-us .about-us-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.about-us .contact {
+  margin-bottom: 16px;
+}
+
+.about-us .about-us-icons {
+  gap: 17px;
+  display: flex;
+  margin-top: 32px;
+}
+
+.about-us .about-us-icon {
+  width: 47px;
+  height: 46px;
+  display: flex;
+  font-size: 24px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.subscribe .subscribe-title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 31px;
+}
+
+.subscribe .subscribe-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe .email {
+  width: 325px;
+  height: 64px;
+  padding: 21px;
+  font-size: 18px;
+  color: #f3f3f3;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+
+.subscribe .email:focus {
+  outline: none;
+}
+
+.subscribe .subscribe-button {
+  height: 64px;
+  width: 170px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 16px;
+  font-weight: 600px;
+  border-radius: 8px;
+  background: #005fac;
 }
