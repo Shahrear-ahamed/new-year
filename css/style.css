@@ -81,7 +81,6 @@ ul > li {
 .my-failure .failure-title {
   width: 288px;
   font-size: 40px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.175;
 }
@@ -89,7 +88,6 @@ ul > li {
 .my-failure .failure-description {
   width: 416px;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 26px;
   margin-top: 24px;
@@ -101,7 +99,6 @@ ul > li {
   margin-top: 8px;
   font-weight: 400;
   line-height: 26px;
-  font-style: normal;
 }
 
 .failure-lists li::before {
@@ -109,4 +106,33 @@ ul > li {
   color: #16d887;
   font-size: 20px;
   margin-right: 10px;
+}
+
+/* // section 3 */
+.my-plans .plan-title {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.plan-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan-container .plan-data {
+  text-align: center;
+}
+
+.plan-data-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 24px 0 16px 0;
+}
+
+.plan-data-description {
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
 }
